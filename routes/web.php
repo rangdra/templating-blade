@@ -15,7 +15,7 @@ Route::get('/', function () {
 });
 
 Route::get('/master', function () {
-    return view('master');
+    return view('adminlte.master');
 });
 
 Route::get('/data-tables', function(){
